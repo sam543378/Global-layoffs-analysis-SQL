@@ -28,7 +28,7 @@ Uncover trends in layoffs across companies, industries, countries, and over time
 Contains information about layoffs in various companies globally, including company details, industries, layoff counts, dates, and locations.
 
 ## Project Workflow
-1. **Data Cleaning**
+## 1. Data Cleaning
 
 
 Steps:
@@ -61,7 +61,7 @@ A clean and standardized dataset ready for analysis.
 
 - Understand the scope of layoffs globally.
 
-Key Insights
+**Key Insights**
 
 - Largest single-day layoffs and companies with the highest cumulative layoffs.
 
@@ -117,8 +117,5 @@ Key Insights
 
 
 
----
 
-## Acknowledgments
 
-- Dataset source: [Kaggle - Layoffs 2022](https://www.kaggle.com/datasets/swaptr/layoffs-2022)
