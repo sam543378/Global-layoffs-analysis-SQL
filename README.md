@@ -41,10 +41,12 @@ Steps:
 - Populate missing "industry" data using company-specific values.
 
 - Retain NULLs in numeric fields for clarity but remove rows where both "total_laid_off" and "percentage_laid_off" are NULL.
+  
 **Standardize data**
 
 - Normalize "industry" and "country" fields to eliminate inconsistencies.
 - Convert "date" column to a proper DATE format.
+  
 **Remove temporary columns** used during cleaning.
 
 **Output**:
