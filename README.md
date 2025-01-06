@@ -1,28 +1,29 @@
-# Global Layoffs Analysis:
+# Global Layoffs Analysis
+
 ## Data Cleaning and EDA
 
 This project explores global layoff trends using data from the Layoffs 2022 Dataset. The analysis involves two main phases:
 
-## Data Cleaning:
+## Data Cleaning
 Preparing the dataset for accurate and reliable analysis.
 ## Exploratory Data Analysis (EDA): 
 eriving meaningful insights and trends.
 
 ## Project Objectives
 
-**Data Cleaning**:
+**Data Cleaning**
 Handle duplicates, missing values, and standardize data for consistency.
 
-**EDA**:  
+**EDA** 
 Uncover trends in layoffs across companies, industries, countries, and over time.
 
 ## Dataset
 
-**Source**:
+**Source**
 
 - Dataset source: [Kaggle - Layoffs 2022](https://www.kaggle.com/datasets/swaptr/layoffs-2022)
 
-**Description**: 
+**Description**
 
 Contains information about layoffs in various companies globally, including company details, industries, layoff counts, dates, and locations.
 
@@ -36,29 +37,29 @@ Steps:
 
 **Remove duplicates** using SQL ROW_NUMBER() and eliminate redundant entries.
 
-**Handle missing values** :
+**Handle missing values** 
 - Populate missing "industry" data using company-specific values.
 
 - Retain NULLs in numeric fields for clarity but remove rows where both "total_laid_off" and "percentage_laid_off" are NULL.
-**Standardize data**:
+**Standardize data**
 
 - Normalize "industry" and "country" fields to eliminate inconsistencies.
 - Convert "date" column to a proper DATE format.
 **Remove temporary columns** used during cleaning.
 
-**Output**: 
+**Output**:
 
 A clean and standardized dataset ready for analysis.
 
 ## 2. Exploratory Data Analysis (EDA)
 
-**Goals**:
+**Goals**
 
 - Identify key trends, outliers, and patterns in the dataset.
 
 - Understand the scope of layoffs globally.
 
-Key Insights:
+Key Insights
 
 - Largest single-day layoffs and companies with the highest cumulative layoffs.
 
@@ -68,7 +69,7 @@ Key Insights:
 
 - Companies that shut down entirely, marked by 100% layoffs.
 
-## Techniques:
+## Techniques
 
 - Aggregations (SUM, MAX, MIN) and ranking (DENSE_RANK).
 
@@ -77,19 +78,19 @@ Key Insights:
 
 ## Key Findings
 
-**Industries**:
+**Industries**
 
  Tech and crypto industries faced the most significant layoffs.
 
-**Geographies**:
+**Geographies**
 
  The United States experienced the highest layoffs by volume.
 
-**Time Trends**:
+**Time Trends**
 
  Layoffs peaked during specific months, highlighting seasonal or economic factors.
 
-**Funding Stages**:
+**Funding Stages**
 
  Startups in early funding stages saw disproportionately higher layoffs.
  
